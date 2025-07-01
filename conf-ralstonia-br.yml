@@ -1,0 +1,22 @@
+samples:
+# top f_weighted_target_in_query
+- SRR29654720
+- SRR29654726
+- SRR26668004
+- SRR16817055
+- SRR16817052
+
+# top containment with original query search
+# - SRR7698815
+# - SRR12829165
+# - SRR12829154
+# - SRR10754058
+# - SRR10754060
+
+outdir: outputs.ralstonia-br/
+
+sourmash_databases:
+- ralstonia864-0.sc1000.zip
+
+sourmash_database_threshold_bp: 10000
+
